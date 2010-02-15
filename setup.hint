@@ -1,4 +1,4 @@
 category: Audio OCaml
-requires: ocaml libmad0 libmad-devel
+requires: ocaml libgcc1 libmad0 libmad-devel
 sdesc: "OCaml libmad bindings"
 ldesc: "OCaml libmad MP3 decoder bindings"

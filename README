@@ -3,17 +3,18 @@ ocaml-mad
 OCaml libmad MP3 decoder bindings
 
 Runtime requirements:
-  cygwin-1.5.25-15
-  libmad0-0.15.1b-5
-  ocaml-3.10.2-1
+  cygwin-1.7.1-1
+  libgcc1-4.3.4-3
+  libmad0-0.15.1b-10
+  ocaml-3.11.2-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  binutils-20080624-2
-  cygport-0.4.3-1
-  gcc-core-3.4.4-3
+  binutils-2.19.51-1
+  cygport-0.9.80-1
+  gcc4-core-4.3.4-3
   make-3.81-2
-  ocaml-findlib-1.2.2-1
+  ocaml-findlib-1.2.5-1
 
 Canonical website:
   http://savonet.sourceforge.net/wiki/OCamlLibs
@@ -24,43 +25,22 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack ocaml-mad-0.3.5-X-src.tar.bz2
+  unpack ocaml-mad-0.3.6-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./ocaml-mad-0.3.5-X.cygport all
+  cygport ./ocaml-mad-0.3.6-X.cygport all
 
 This will create:
-  /usr/src/ocaml-mad-0.3.5-X-src.tar.bz2
-  /usr/src/ocaml-mad-0.3.5-X.tar.bz2
+  /usr/src/ocaml-mad-0.3.6-X-src.tar.bz2
+  /usr/src/ocaml-mad-0.3.6-X.tar.bz2
 
 -------------------------------------------
 
-Files included in the binary package:
-
-  /usr/lib/ocaml/3.10/mad/META
-  /usr/lib/ocaml/3.10/mad/libmad_stubs.a
-  /usr/lib/ocaml/3.10/mad/mad.a
-  /usr/lib/ocaml/3.10/mad/mad.cma
-  /usr/lib/ocaml/3.10/mad/mad.cmi
-  /usr/lib/ocaml/3.10/mad/mad.cmx
-  /usr/lib/ocaml/3.10/mad/mad.cmxa
-  /usr/lib/ocaml/3.10/mad/mad.mli
-  /usr/lib/ocaml/3.10/stublibs/dllmad_stubs.so
-  /usr/lib/ocaml/3.10/stublibs/dllmad_stubs.so.owner
-  /usr/share/doc/ocaml-mad-0.3.5/COPYING
-  /usr/share/doc/ocaml-mad-0.3.5/Changes
-  /usr/share/doc/ocaml-mad-0.3.5/README
-
-------------------
-
 Port Notes:
 
------ version 0.3.5-1 -----
-Version bump.
-
------ version 0.3.2-1 -----
-Initial release for Cygwin.
+----- version 0.3.6-1 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:
