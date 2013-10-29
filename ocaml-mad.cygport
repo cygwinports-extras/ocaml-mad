@@ -1,0 +1,17 @@
+inherit ocaml
+
+NAME="ocaml-mad"
+VERSION=0.4.4
+RELEASE=1
+CATEGORY="Libs"
+SUMMARY="OCaml libmad bindings"
+DESCRIPTION="OCaml libmad MP3 decoder bindings"
+HOMEPAGE="http://savonet.sourceforge.net/"
+SRC_URI="mirror://sourceforge/savonet/${NAME}-${VERSION}.tar.gz"
+
+src_compile() {
+	lndirs
+	cd ${B}
+	cygconf
+	cygmake -j1
+}
