@@ -2,7 +2,7 @@ inherit ocaml
 
 NAME="ocaml-mad"
 VERSION=0.4.4
-RELEASE=1
+RELEASE=2
 CATEGORY="Libs"
 SUMMARY="OCaml libmad bindings"
 DESCRIPTION="OCaml libmad MP3 decoder bindings"
